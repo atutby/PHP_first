@@ -1,0 +1,94 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Thu Nov 05 02:32:56.261453 2020] [mpm_winnt:notice] [pid 6992:tid 632] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Thu Nov 05 02:32:56.261453 2020] [mpm_winnt:notice] [pid 6992:tid 632] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Thu Nov 05 02:32:56.261453 2020] [core:notice] [pid 6992:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 05 02:32:56.261453 2020] [mpm_winnt:notice] [pid 6992:tid 632] AH00418: Parent: Created child process 1088
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Thu Nov 05 02:32:57.058327 2020] [mpm_winnt:notice] [pid 1088:tid 588] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 05 02:46:02.712927 2020] [mpm_winnt:notice] [pid 6992:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 02:46:04.759831 2020] [mpm_winnt:notice] [pid 1088:tid 588] AH00364: Child: All worker threads have exited.
+[Thu Nov 05 02:46:05.541050 2020] [mpm_winnt:notice] [pid 6992:tid 632] AH00430: Parent: Child process 1088 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Thu Nov 05 02:47:36.974892 2020] [mpm_winnt:notice] [pid 3948:tid 632] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Thu Nov 05 02:47:36.974892 2020] [mpm_winnt:notice] [pid 3948:tid 632] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Thu Nov 05 02:47:36.974892 2020] [core:notice] [pid 3948:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 05 02:47:36.974892 2020] [mpm_winnt:notice] [pid 3948:tid 632] AH00418: Parent: Created child process 5244
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Thu Nov 05 02:47:40.035077 2020] [mpm_winnt:notice] [pid 5244:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 05 13:18:19.083363 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:14484] PHP Notice:  Undefined offset: 4 in C:\\localhost\\index.php on line 17
+[Thu Nov 05 14:14:11.044310 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:10645] PHP Warning:  Use of undefined constant s - assumed 's' (this will throw an Error in a future version of PHP) in C:\\localhost\\index.php on line 19
+[Thu Nov 05 14:14:39.062167 2020] [php7:error] [pid 5244:tid 1116] [client ::1:10652] PHP Parse error:  syntax error, unexpected '>' in C:\\localhost\\index.php on line 17
+[Thu Nov 05 14:26:02.147967 2020] [php7:error] [pid 5244:tid 1116] [client ::1:10715] PHP Parse error:  syntax error, unexpected 'defined' (T_STRING) in C:\\localhost\\index.php on line 32
+[Thu Nov 05 14:26:39.815690 2020] [php7:error] [pid 5244:tid 1116] [client ::1:10719] PHP Parse error:  syntax error, unexpected 'defined' (T_STRING) in C:\\localhost\\index.php on line 32
+[Thu Nov 05 23:52:53.333433 2020] [php7:error] [pid 5244:tid 1116] [client ::1:1263] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\index.php on line 49
+[Fri Nov 06 23:12:11.959015 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12042] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\index.php on line 20
+[Fri Nov 06 23:23:19.674296 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12114] PHP Parse error:  syntax error, unexpected ',', expecting ')' in C:\\localhost\\index.php on line 17
+[Fri Nov 06 23:23:34.525727 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12116] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\index.php on line 20
+[Fri Nov 06 23:23:46.367906 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12119] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\index.php on line 20
+[Fri Nov 06 23:24:08.424851 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12124] PHP Parse error:  syntax error, unexpected ',', expecting ')' in C:\\localhost\\index.php on line 17
+[Fri Nov 06 23:33:44.903523 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12178] PHP Parse error:  syntax error, unexpected '}' in C:\\localhost\\index.php on line 25
+[Fri Nov 06 23:33:58.855437 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12182] PHP Parse error:  syntax error, unexpected '"' in C:\\localhost\\index.php on line 26
+[Fri Nov 06 23:34:16.208452 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12185] PHP Parse error:  syntax error, unexpected '"' in C:\\localhost\\index.php on line 26
+[Fri Nov 06 23:34:58.178670 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12192] PHP Notice:  Undefined variable: result2 in C:\\localhost\\index.php on line 26
+[Fri Nov 06 23:47:18.710926 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12228] PHP Parse error:  syntax error, unexpected '$number' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\index.php on line 18
+[Sat Nov 07 00:01:04.529014 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12289] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\\localhost\\index.php on line 26
+[Sat Nov 07 00:01:18.444916 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12292] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 28
+[Sat Nov 07 00:02:34.786950 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12298] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:03:05.465864 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12300] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:03:15.297946 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12302] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:04:03.180933 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12305] PHP Parse error:  syntax error, unexpected '$gvar' (T_VARIABLE), expecting identifier (T_STRING) in C:\\localhost\\index.php on line 24
+[Sat Nov 07 00:04:15.620324 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12309] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:04:26.084233 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12310] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:04:38.815603 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12312] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:04:43.998432 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12314] PHP Notice:  Undefined variable: gvar in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:05:10.610346 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12317] PHP Notice:  Undefined variable: gvar2 in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:05:24.314736 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12320] PHP Notice:  Undefined variable: gvar2 in C:\\localhost\\index.php on line 30
+[Sat Nov 07 00:05:26.394467 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12320] PHP Notice:  Undefined variable: gvar2 in C:\\localhost\\index.php on line 30
+[Sat Nov 07 00:05:33.683908 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12321] PHP Notice:  Undefined variable: gvar2 in C:\\localhost\\index.php on line 30
+[Sat Nov 07 00:05:41.726597 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:12324] PHP Notice:  Undefined variable: gvar2 in C:\\localhost\\index.php on line 30
+[Sat Nov 07 00:06:03.948490 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12328] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:07:44.592456 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12348] PHP Parse error:  syntax error, unexpected '=', expecting ';' or ',' in C:\\localhost\\index.php on line 29
+[Sat Nov 07 00:20:40.193365 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12402] PHP Warning:  include_once(factorial5.php): failed to open stream: No such file or directory in C:\\localhost\\index.php on line 17
+[Sat Nov 07 00:20:40.193365 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12402] PHP Warning:  include_once(): Failed opening 'factorial5.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\index.php on line 17
+[Sat Nov 07 00:20:40.197212 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12402] PHP Fatal error:  Uncaught Error: Call to undefined function getFactorial() in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19
+[Sat Nov 07 00:21:39.654864 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12408] PHP Warning:  require_once(factorial5.php): failed to open stream: No such file or directory in C:\\localhost\\index.php on line 16
+[Sat Nov 07 00:21:39.654864 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12408] PHP Fatal error:  require_once(): Failed opening required 'factorial5.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\index.php on line 16
+[Sat Nov 07 00:23:59.618298 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12415] PHP Warning:  require_once(factorial5.php): failed to open stream: No such file or directory in C:\\localhost\\index.php on line 16
+[Sat Nov 07 00:23:59.618298 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12415] PHP Fatal error:  require_once(): Failed opening required 'factorial5.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\index.php on line 16
+[Sat Nov 07 00:24:10.718286 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12418] PHP Warning:  include_once(factorial5.php): failed to open stream: No such file or directory in C:\\localhost\\index.php on line 17
+[Sat Nov 07 00:24:10.718286 2020] [php7:warn] [pid 5244:tid 1116] [client ::1:12418] PHP Warning:  include_once(): Failed opening 'factorial5.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\index.php on line 17
+[Sat Nov 07 00:24:10.718286 2020] [php7:error] [pid 5244:tid 1116] [client ::1:12418] PHP Fatal error:  Uncaught Error: Call to undefined function getFactorial() in C:\\localhost\\index.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 19
+[Sat Nov 07 19:36:53.753521 2020] [php7:error] [pid 5244:tid 1116] [client ::1:8842] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in C:\\localhost\\index.php on line 38
+[Sat Nov 07 19:42:04.120470 2020] [php7:error] [pid 5244:tid 1116] [client ::1:9008] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\index.php on line 24
+[Sat Nov 07 19:42:54.543890 2020] [php7:error] [pid 5244:tid 1116] [client ::1:9035] PHP Parse error:  syntax error, unexpected '$phones' (T_VARIABLE) in C:\\localhost\\index.php on line 28
+[Sat Nov 07 19:45:39.512320 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:9086] PHP Notice:  Undefined offset: 3 in C:\\localhost\\index.php on line 23
+[Sat Nov 07 19:46:01.392623 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:9090] PHP Notice:  Undefined offset: 3 in C:\\localhost\\index.php on line 23
+[Sat Nov 07 19:49:18.488292 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:9108] PHP Notice:  Array to string conversion in C:\\localhost\\index.php on line 29
+[Sat Nov 07 19:49:59.440166 2020] [php7:error] [pid 5244:tid 1116] [client ::1:9112] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in C:\\localhost\\index.php on line 30
+[Sat Nov 07 20:15:46.946593 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2001] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting ';' or ',' in C:\\localhost\\index.php on line 26
+[Sat Nov 07 20:15:51.821589 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2001] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting ';' or ',' in C:\\localhost\\index.php on line 26
+[Sat Nov 07 20:17:29.905711 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2113] PHP Notice:  Undefined variable: itmem in C:\\localhost\\index.php on line 22
+[Sat Nov 07 20:17:29.905711 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2113] PHP Notice:  Undefined variable: itmem in C:\\localhost\\index.php on line 22
+[Sat Nov 07 20:17:29.905711 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2113] PHP Notice:  Undefined variable: itmem in C:\\localhost\\index.php on line 22
+[Sat Nov 07 20:17:29.905711 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2113] PHP Notice:  Undefined variable: itmem in C:\\localhost\\index.php on line 22
+[Sat Nov 07 20:20:08.475944 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2127] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ';' or ',' in C:\\localhost\\index.php on line 24
+[Sat Nov 07 20:20:17.630906 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2128] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ';' or ',' in C:\\localhost\\index.php on line 24
+[Sat Nov 07 20:20:38.510743 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2131] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in C:\\localhost\\index.php on line 24
+[Sat Nov 07 20:21:43.334635 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2135] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in C:\\localhost\\index.php on line 24
+[Sat Nov 07 20:21:44.498416 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2135] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in C:\\localhost\\index.php on line 24
+[Sat Nov 07 20:21:52.098494 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2136] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in C:\\localhost\\index.php on line 25
+[Sat Nov 07 20:21:54.280255 2020] [php7:notice] [pid 5244:tid 1116] [client ::1:2136] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in C:\\localhost\\index.php on line 25
+[Sat Nov 07 20:29:15.269955 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2170] PHP Fatal error:  Cannot use empty array elements in arrays in C:\\localhost\\index.php on line 27
+[Sat Nov 07 20:29:21.345827 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2172] PHP Fatal error:  Cannot use empty array elements in arrays in C:\\localhost\\index.php on line 27
+[Sat Nov 07 20:29:28.359666 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2172] PHP Parse error:  syntax error, unexpected '"nokia"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\\localhost\\index.php on line 28
+[Sat Nov 07 20:29:59.291521 2020] [php7:error] [pid 5244:tid 1116] [client ::1:2176] PHP Fatal error:  Cannot use empty array elements in arrays in C:\\localhost\\index.php on line 27
+[Sun Nov 08 10:04:49.696793 2020] [mpm_winnt:notice] [pid 3948:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 08 10:04:51.743671 2020] [mpm_winnt:notice] [pid 5244:tid 596] AH00364: Child: All worker threads have exited.
+[Sun Nov 08 10:04:52.446794 2020] [mpm_winnt:notice] [pid 3948:tid 632] AH00430: Parent: Child process 5244 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Sun Nov 08 10:05:31.884423 2020] [mpm_winnt:notice] [pid 3144:tid 636] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sun Nov 08 10:05:31.884423 2020] [mpm_winnt:notice] [pid 3144:tid 636] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sun Nov 08 10:05:31.884423 2020] [core:notice] [pid 3144:tid 636] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 08 10:05:31.884423 2020] [mpm_winnt:notice] [pid 3144:tid 636] AH00418: Parent: Created child process 5388
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
+[Sun Nov 08 10:05:34.511961 2020] [mpm_winnt:notice] [pid 5388:tid 596] AH00354: Child: Starting 64 worker threads.

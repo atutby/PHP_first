@@ -92,3 +92,19 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Sun Nov 08 10:05:31.884423 2020] [mpm_winnt:notice] [pid 3144:tid 636] AH00418: Parent: Created child process 5388
 PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\mysqli (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.), ext\\php_mysqli.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c.)) in Unknown on line 0
 [Sun Nov 08 10:05:34.511961 2020] [mpm_winnt:notice] [pid 5388:tid 596] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 08 17:34:57.175472 2020] [php7:notice] [pid 5388:tid 1116] [client ::1:5956] PHP Notice:  Undefined variable: phones in C:\\localhost\\index.php on line 17
+[Sun Nov 08 17:35:48.567261 2020] [php7:notice] [pid 5388:tid 1116] [client ::1:6255] PHP Notice:  Undefined variable: technics in C:\\localhost\\index.php on line 25
+[Sun Nov 08 17:37:09.059011 2020] [php7:error] [pid 5388:tid 1116] [client ::1:6661] PHP Parse error:  syntax error, unexpected '$isar' (T_VARIABLE) in C:\\localhost\\index.php on line 27
+[Sun Nov 08 17:45:23.599792 2020] [php7:notice] [pid 5388:tid 1116] [client ::1:9138] PHP Notice:  compact(): Undefined variable: year in C:\\localhost\\index.php on line 20
+[Sun Nov 08 17:46:24.741627 2020] [php7:error] [pid 5388:tid 1116] [client ::1:9428] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\index.php on line 21
+[Sun Nov 08 17:48:37.489312 2020] [php7:notice] [pid 5388:tid 1116] [client ::1:10124] PHP Notice:  Undefined variable: data in C:\\localhost\\index.php on line 21
+[Sun Nov 08 17:54:13.163338 2020] [php7:error] [pid 5388:tid 1116] [client ::1:11797] PHP Parse error:  syntax error, unexpected '"samsung"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\\localhost\\index.php on line 211
+[Sun Nov 08 17:56:21.492318 2020] [php7:error] [pid 5388:tid 1116] [client ::1:12450] PHP Parse error:  syntax error, unexpected '"samsung"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\\localhost\\index.php on line 17
+[Sun Nov 08 17:57:08.931177 2020] [php7:error] [pid 5388:tid 1116] [client ::1:12703] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\localhost\\index.php on line 18
+[Sun Nov 08 17:57:59.067164 2020] [php7:error] [pid 5388:tid 1116] [client ::1:12949] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\localhost\\index.php on line 33
+[Sun Nov 08 17:58:16.376254 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13006] PHP Parse error:  syntax error, unexpected '"samsung"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\\localhost\\index.php on line 17
+[Sun Nov 08 17:58:31.519427 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13123] PHP Parse error:  syntax error, unexpected '"samsung"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\\localhost\\index.php on line 17
+[Sun Nov 08 17:58:44.348856 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13180] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\localhost\\index.php on line 19
+[Sun Nov 08 17:59:05.817242 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13265] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\localhost\\index.php on line 19
+[Sun Nov 08 20:04:07.667028 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13715] PHP Parse error:  syntax error, unexpected '$tablets' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\index.php on line 21
+[Sun Nov 08 20:04:11.544436 2020] [php7:error] [pid 5388:tid 1116] [client ::1:13715] PHP Parse error:  syntax error, unexpected '$tablets' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\index.php on line 21

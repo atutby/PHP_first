@@ -18,6 +18,21 @@ if( isset($_COOKIE['lan'])) {
 		echo "$name. $value <br />";
 	}
 }
+echo '<hr/>'; // ----------------------------------------------------------------------------------------
+
+$data = ['cat', 'dog'];
+foreach($data as $key=>$value)
+{
+	setcookie("data[$key]", $value);
+}
+
+if( isset($_COOKIE['data'])) {
+	foreach ($_COOKIE['data'] as $name => $value) {
+		$name = htmlspecialchars($name);
+		$value = htmlspecialchars($value);
+		echo "$name. $value <br />";
+	}
+}
 
 
 echo 'cat';

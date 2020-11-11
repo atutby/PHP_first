@@ -197,3 +197,12 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Wed Nov 11 09:13:25.377072 2020] [mpm_winnt:notice] [pid 3016:tid 504] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
 [Wed Nov 11 09:13:25.377072 2020] [core:notice] [pid 3016:tid 504] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Wed Nov 11 09:13:25.377072 2020] [mpm_winnt:notice] [pid 3016:tid 504] AH00418: Parent: Created child process 5416
+[Wed Nov 11 09:13:28.124757 2020] [mpm_winnt:notice] [pid 5416:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 11 14:45:00.166853 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2868] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 7
+[Wed Nov 11 14:45:00.166853 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2868] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 7
+[Wed Nov 11 14:45:00.166853 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2868] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 8
+[Wed Nov 11 14:45:00.166853 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2868] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 8
+[Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 7
+[Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 7
+[Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 8
+[Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 8

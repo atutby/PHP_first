@@ -42,8 +42,6 @@ if(isset($_POST['courses']))
 }
 
 ?>
-
-
 	<h3>Вход на сайт</h3>
 	<form method="POST">
 		Логин: <input type="text" name="login"/><br>
@@ -65,13 +63,6 @@ if(isset($_POST['courses']))
 			<option value="Ruby">Ruby</option>
 			<option value="Python">Python</option>
 		</select>
-
-
-
-
-
-
-
 		<input type="submit" value="Войти"/>
 	</form>
 </body>

@@ -207,3 +207,23 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 8
 [Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 8
 [Wed Nov 11 15:01:03.076998 2020] [php7:error] [pid 5416:tid 1088] [client ::1:2957] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\cookies.php on line 22
+[Wed Nov 11 21:23:48.457491 2020] [php7:error] [pid 5416:tid 1088] [client ::1:6963] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\\localhost\\session.php on line 14
+[Wed Nov 11 21:29:53.548863 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7068] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:35.739096 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7074] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:36.997048 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7074] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:38.105004 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7074] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:39.113513 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7074] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:40.029818 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7074] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:30:41.001564 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7075] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:31:23.280518 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7078] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:31:24.145053 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7078] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:31:24.880791 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7078] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:31:35.547806 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7082] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:39.395587 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7095] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:45.431660 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7097] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:48.737889 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7097] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:49.917556 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7097] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:51.172429 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7098] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 21:33:52.685801 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:7098] PHP Notice:  Undefined index: PHPSESSID in C:\\localhost\\session.php on line 18
+[Wed Nov 11 22:14:15.458637 2020] [php7:error] [pid 5416:tid 1088] [client ::1:7328] PHP Parse error:  syntax error, unexpected 'r' (T_STRING), expecting ';' or ',' in C:\\localhost\\fopen.php on line 4
+[Wed Nov 11 22:19:12.365240 2020] [php7:warn] [pid 5416:tid 1088] [client ::1:7341] PHP Warning:  fopen(form.pho): failed to open stream: No such file or directory in C:\\localhost\\fopen.php on line 8

@@ -190,3 +190,10 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Tue Nov 10 22:44:39.050783 2020] [php7:error] [pid 11800:tid 1088] [client ::1:6017] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25
 [Tue Nov 10 22:44:51.918780 2020] [php7:error] [pid 11800:tid 1088] [client ::1:12562] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25
 [Tue Nov 10 22:45:00.237781 2020] [php7:error] [pid 11800:tid 1088] [client ::1:12575] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25
+[Wed Nov 11 08:54:00.614928 2020] [mpm_winnt:notice] [pid 13232:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 11 08:54:02.722927 2020] [mpm_winnt:notice] [pid 11800:tid 540] AH00364: Child: All worker threads have exited.
+[Wed Nov 11 08:54:05.661926 2020] [mpm_winnt:notice] [pid 13232:tid 432] AH00430: Parent: Child process 11800 exited successfully.
+[Wed Nov 11 09:13:25.377072 2020] [mpm_winnt:notice] [pid 3016:tid 504] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Wed Nov 11 09:13:25.377072 2020] [mpm_winnt:notice] [pid 3016:tid 504] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Wed Nov 11 09:13:25.377072 2020] [core:notice] [pid 3016:tid 504] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 11 09:13:25.377072 2020] [mpm_winnt:notice] [pid 3016:tid 504] AH00418: Parent: Created child process 5416

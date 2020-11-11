@@ -206,3 +206,4 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 7
 [Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Undefined variable: _COOKEI in C:\\localhost\\cookies.php on line 8
 [Wed Nov 11 14:45:55.812316 2020] [php7:notice] [pid 5416:tid 1088] [client ::1:2873] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\cookies.php on line 8
+[Wed Nov 11 15:01:03.076998 2020] [php7:error] [pid 5416:tid 1088] [client ::1:2957] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ';' or ',' in C:\\localhost\\cookies.php on line 22

@@ -186,3 +186,7 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Tue Nov 10 21:03:32.807264 2020] [core:notice] [pid 13232:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Tue Nov 10 21:03:32.843265 2020] [mpm_winnt:notice] [pid 13232:tid 432] AH00418: Parent: Created child process 11800
 [Tue Nov 10 21:03:34.720263 2020] [mpm_winnt:notice] [pid 2776:tid 680] AH00364: Child: All worker threads have exited.
+[Tue Nov 10 21:03:35.978263 2020] [mpm_winnt:notice] [pid 11800:tid 540] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 10 22:44:39.050783 2020] [php7:error] [pid 11800:tid 1088] [client ::1:6017] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25
+[Tue Nov 10 22:44:51.918780 2020] [php7:error] [pid 11800:tid 1088] [client ::1:12562] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25
+[Tue Nov 10 22:45:00.237781 2020] [php7:error] [pid 11800:tid 1088] [client ::1:12575] PHP Parse error:  syntax error, unexpected '<' in C:\\localhost\\strings.php on line 25

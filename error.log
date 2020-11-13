@@ -254,3 +254,10 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Thu Nov 12 22:46:09.063532 2020] [php7:warn] [pid 4992:tid 1088] [client ::1:2751] PHP Warning:  mkdir(): File exists in C:\\localhost\\rename.php on line 14
 [Thu Nov 12 22:47:30.506839 2020] [php7:warn] [pid 4992:tid 1088] [client ::1:2760] PHP Warning:  rmdir(newdir): No such file or directory in C:\\localhost\\rename.php on line 19
 [Thu Nov 12 22:53:02.745619 2020] [php7:error] [pid 4992:tid 1088] [client ::1:2780] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\rename.php on line 37
+[Fri Nov 13 00:43:23.426027 2020] [mpm_winnt:notice] [pid 3504:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Nov 13 00:43:26.862404 2020] [mpm_winnt:notice] [pid 4992:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Nov 13 00:43:30.360404 2020] [mpm_winnt:notice] [pid 3504:tid 632] AH00430: Parent: Child process 4992 exited successfully.
+[Fri Nov 13 19:19:03.277692 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Fri Nov 13 19:19:03.278696 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Fri Nov 13 19:19:03.278696 2020] [core:notice] [pid 6208:tid 544] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 13 19:19:03.317452 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00418: Parent: Created child process 1408

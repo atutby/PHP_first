@@ -261,3 +261,59 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Fri Nov 13 19:19:03.278696 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
 [Fri Nov 13 19:19:03.278696 2020] [core:notice] [pid 6208:tid 544] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Fri Nov 13 19:19:03.317452 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00418: Parent: Created child process 1408
+[Fri Nov 13 19:19:04.197813 2020] [mpm_winnt:notice] [pid 1408:tid 468] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 13 19:21:37.723660 2020] [php7:error] [pid 1408:tid 1088] [client ::1:7889] PHP Parse error:  syntax error, unexpected '\xd0\x9e\xd1\x88\xd0\xb8\xd0\xb1\xd0\xba\xd0\xb0' (T_STRING), expecting ')' in C:\\localhost\\flock.php on line 9
+[Fri Nov 13 19:23:37.448749 2020] [php7:error] [pid 1408:tid 1088] [client ::1:7923] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE) in C:\\localhost\\flock.php on line 8
+[Fri Nov 13 19:27:40.082909 2020] [php7:warn] [pid 1408:tid 1088] [client ::1:7986] PHP Warning:  flock(): supplied resource is not a valid stream resource in C:\\localhost\\flock.php on line 16
+[Fri Nov 13 19:27:40.082909 2020] [php7:warn] [pid 1408:tid 1088] [client ::1:7986] PHP Warning:  fclose(): supplied resource is not a valid stream resource in C:\\localhost\\flock.php on line 22
+[Sat Nov 14 20:19:38.398292 2020] [php7:warn] [pid 1408:tid 1088] [client ::1:9442] PHP Warning:  POST Content-Length of 640443848 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:20:22.293434 2020] [php7:warn] [pid 1408:tid 1088] [client ::1:9445] PHP Warning:  POST Content-Length of 123262982 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:22:21.595740 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 14 20:22:23.629949 2020] [mpm_winnt:notice] [pid 1408:tid 468] AH00364: Child: All worker threads have exited.
+[Sat Nov 14 20:22:24.753979 2020] [mpm_winnt:notice] [pid 6208:tid 544] AH00430: Parent: Child process 1408 exited successfully.
+[Sat Nov 14 20:36:10.493576 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sat Nov 14 20:36:10.493576 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Nov 14 20:36:10.493576 2020] [core:notice] [pid 13636:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Nov 14 20:36:10.542079 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00418: Parent: Created child process 1628
+[Sat Nov 14 20:36:11.436535 2020] [mpm_winnt:notice] [pid 1628:tid 564] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 14 20:47:58.413545 2020] [php7:notice] [pid 1628:tid 1084] [client ::1:9777] PHP Notice:  Undefined index: uploads in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:47:58.414426 2020] [php7:notice] [pid 1628:tid 1084] [client ::1:9777] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:47:58.415193 2020] [php7:warn] [pid 1628:tid 1084] [client ::1:9777] PHP Warning:  Invalid argument supplied for foreach() in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:48:51.594327 2020] [php7:notice] [pid 1628:tid 1084] [client ::1:9791] PHP Notice:  Undefined index: uploads in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:48:51.594327 2020] [php7:notice] [pid 1628:tid 1084] [client ::1:9791] PHP Notice:  Trying to access array offset on value of type null in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:48:51.594327 2020] [php7:warn] [pid 1628:tid 1084] [client ::1:9791] PHP Warning:  Invalid argument supplied for foreach() in C:\\localhost\\upload.php on line 12, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:57:58.396734 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Nov 14 20:57:58.506112 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sat Nov 14 20:57:58.506112 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Nov 14 20:57:58.506112 2020] [core:notice] [pid 13636:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Nov 14 20:57:58.506112 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00418: Parent: Created child process 4856
+[Sat Nov 14 20:57:59.407190 2020] [mpm_winnt:notice] [pid 4856:tid 552] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 14 20:58:00.420528 2020] [mpm_winnt:notice] [pid 1628:tid 564] AH00364: Child: All worker threads have exited.
+[Sat Nov 14 20:58:04.638053 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 14 20:58:06.654154 2020] [mpm_winnt:notice] [pid 4856:tid 552] AH00364: Child: All worker threads have exited.
+[Sat Nov 14 20:58:06.723023 2020] [mpm_winnt:notice] [pid 13636:tid 624] AH00430: Parent: Child process 4856 exited successfully.
+[Sat Nov 14 20:58:19.744962 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sat Nov 14 20:58:19.760607 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Nov 14 20:58:19.760607 2020] [core:notice] [pid 10088:tid 556] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Nov 14 20:58:19.760607 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00418: Parent: Created child process 14588
+[Sat Nov 14 20:58:20.512641 2020] [mpm_winnt:notice] [pid 14588:tid 572] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 14 20:58:24.610759 2020] [php7:notice] [pid 14588:tid 1080] [client ::1:9827] PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:58:41.236384 2020] [php7:notice] [pid 14588:tid 1080] [client ::1:9829] PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:59:19.984211 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Nov 14 20:59:20.066353 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sat Nov 14 20:59:20.066353 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Nov 14 20:59:20.066353 2020] [core:notice] [pid 10088:tid 556] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Nov 14 20:59:20.070350 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00418: Parent: Created child process 7556
+[Sat Nov 14 20:59:20.994487 2020] [mpm_winnt:notice] [pid 7556:tid 564] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 14 20:59:22.006398 2020] [mpm_winnt:notice] [pid 14588:tid 572] AH00364: Child: All worker threads have exited.
+[Sat Nov 14 20:59:24.607588 2020] [php7:notice] [pid 7556:tid 1088] [client ::1:9831] PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:59:25.927852 2020] [php7:notice] [pid 7556:tid 1088] [client ::1:9831] PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 20:59:30.568539 2020] [php7:notice] [pid 7556:tid 1088] [client ::1:9831] PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0, referer: http://localhost:8080/upload.php
+[Sat Nov 14 21:00:07.476574 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 14 21:00:09.502367 2020] [mpm_winnt:notice] [pid 7556:tid 564] AH00364: Child: All worker threads have exited.
+[Sat Nov 14 21:00:10.110122 2020] [mpm_winnt:notice] [pid 10088:tid 556] AH00430: Parent: Child process 7556 exited successfully.
+[Sat Nov 14 21:00:15.830662 2020] [mpm_winnt:notice] [pid 10352:tid 684] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sat Nov 14 21:00:15.831664 2020] [mpm_winnt:notice] [pid 10352:tid 684] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sat Nov 14 21:00:15.831664 2020] [core:notice] [pid 10352:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Nov 14 21:00:15.835662 2020] [mpm_winnt:notice] [pid 10352:tid 684] AH00418: Parent: Created child process 3740
+[Sat Nov 14 21:00:16.614249 2020] [mpm_winnt:notice] [pid 3740:tid 564] AH00354: Child: Starting 64 worker threads.

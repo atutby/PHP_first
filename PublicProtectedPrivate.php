@@ -1,4 +1,7 @@
 <?php
+/**
+ *  создать многострочный комментарий (слеш две звёздочки и Enter)
+ */
 class User
 {
 	private $privateA = "private";

@@ -317,3 +317,10 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Sat Nov 14 21:00:15.831664 2020] [core:notice] [pid 10352:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sat Nov 14 21:00:15.835662 2020] [mpm_winnt:notice] [pid 10352:tid 684] AH00418: Parent: Created child process 3740
 [Sat Nov 14 21:00:16.614249 2020] [mpm_winnt:notice] [pid 3740:tid 564] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 14 22:57:28.062008 2020] [php7:error] [pid 3740:tid 1088] [client ::1:11290] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\\localhost\\classUser.php on line 13
+[Sat Nov 14 22:57:38.572526 2020] [php7:error] [pid 3740:tid 1088] [client ::1:11293] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::__construct(), 0 passed in C:\\localhost\\classUser.php on line 21 and exactly 2 expected in C:\\localhost\\classUser.php:5\nStack trace:\n#0 C:\\localhost\\classUser.php(21): User->__construct()\n#1 {main}\n  thrown in C:\\localhost\\classUser.php on line 5
+[Sun Nov 15 19:18:17.596126 2020] [core:warn] [pid 3472:tid 592] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 15 19:18:17.736749 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sun Nov 15 19:18:17.736749 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sun Nov 15 19:18:17.736749 2020] [core:notice] [pid 3472:tid 592] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 15 19:18:17.736749 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00418: Parent: Created child process 4956

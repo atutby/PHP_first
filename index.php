@@ -13,6 +13,7 @@
 <li><a href="http://localhost:8080/session.php">Сессии session.php</a></li>
 <li><a href="http://localhost:8080/upload.php">Отправка файлов на сервер upload.php</a></li>
 <li><a href="http://localhost:8080/classUserExtends.php">Наследование classUserExtends.php</a></li>
+<li><a href="http://localhost:8080/PublicProtectedPrivate.php">Модификаторы доступа PublicProtectedPrivate.php</a></li>
 
 </ul>
 </body>

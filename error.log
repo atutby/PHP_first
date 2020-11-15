@@ -324,3 +324,22 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Sun Nov 15 19:18:17.736749 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
 [Sun Nov 15 19:18:17.736749 2020] [core:notice] [pid 3472:tid 592] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Sun Nov 15 19:18:17.736749 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00418: Parent: Created child process 4956
+[Sun Nov 15 19:18:20.361752 2020] [mpm_winnt:notice] [pid 4956:tid 560] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 15 19:56:42.712247 2020] [php7:error] [pid 4956:tid 1088] [client ::1:1227] PHP Fatal error:  Uncaught Error: Object of class Customer could not be converted to string in C:\\localhost\\classUserExtends.php:41\nStack trace:\n#0 C:\\localhost\\classUserExtends.php(46): Customer->getInfo()\n#1 {main}\n  thrown in C:\\localhost\\classUserExtends.php on line 41, referer: http://localhost:8080/
+[Sun Nov 15 19:57:50.932743 2020] [php7:error] [pid 4956:tid 1088] [client ::1:1233] PHP Fatal error:  Uncaught Error: Object of class Customer could not be converted to string in C:\\localhost\\classUserExtends.php:41\nStack trace:\n#0 C:\\localhost\\classUserExtends.php(46): Customer->getInfo()\n#1 {main}\n  thrown in C:\\localhost\\classUserExtends.php on line 41, referer: http://localhost:8080/
+[Sun Nov 15 19:59:13.750363 2020] [php7:error] [pid 4956:tid 1088] [client ::1:1235] PHP Fatal error:  Uncaught Error: Object of class Customer could not be converted to string in C:\\localhost\\classUserExtends.php:41\nStack trace:\n#0 C:\\localhost\\classUserExtends.php(46): Customer->getInfo()\n#1 {main}\n  thrown in C:\\localhost\\classUserExtends.php on line 41, referer: http://localhost:8080/
+[Sun Nov 15 20:00:12.287544 2020] [php7:error] [pid 4956:tid 1088] [client ::1:1238] PHP Fatal error:  Uncaught Error: Object of class Customer could not be converted to string in C:\\localhost\\classUserExtends.php:41\nStack trace:\n#0 C:\\localhost\\classUserExtends.php(46): Customer->getInfo()\n#1 {main}\n  thrown in C:\\localhost\\classUserExtends.php on line 41, referer: http://localhost:8080/
+[Sun Nov 15 20:00:35.615864 2020] [php7:error] [pid 4956:tid 1088] [client ::1:1245] PHP Fatal error:  Uncaught Error: Object of class Customer could not be converted to string in C:\\localhost\\classUserExtends.php:41\nStack trace:\n#0 C:\\localhost\\classUserExtends.php(46): Customer->getInfo()\n#1 {main}\n  thrown in C:\\localhost\\classUserExtends.php on line 41, referer: http://localhost:8080/
+[Sun Nov 15 20:06:28.188661 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 15 20:06:30.219978 2020] [mpm_winnt:notice] [pid 4956:tid 560] AH00364: Child: All worker threads have exited.
+[Sun Nov 15 20:06:30.251231 2020] [mpm_winnt:notice] [pid 3472:tid 592] AH00430: Parent: Child process 4956 exited successfully.
+[Sun Nov 15 20:07:07.219213 2020] [mpm_winnt:notice] [pid 3900:tid 624] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sun Nov 15 20:07:07.219213 2020] [mpm_winnt:notice] [pid 3900:tid 624] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sun Nov 15 20:07:07.219213 2020] [core:notice] [pid 3900:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 15 20:07:07.219213 2020] [mpm_winnt:notice] [pid 3900:tid 624] AH00418: Parent: Created child process 5272
+[Sun Nov 15 20:07:10.013808 2020] [mpm_winnt:notice] [pid 5272:tid 532] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 15 22:00:41.279710 2020] [core:warn] [pid 3404:tid 536] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 15 22:00:41.514085 2020] [mpm_winnt:notice] [pid 3404:tid 536] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Sun Nov 15 22:00:41.514085 2020] [mpm_winnt:notice] [pid 3404:tid 536] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Sun Nov 15 22:00:41.514085 2020] [core:notice] [pid 3404:tid 536] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 15 22:00:41.514085 2020] [mpm_winnt:notice] [pid 3404:tid 536] AH00418: Parent: Created child process 4968

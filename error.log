@@ -355,3 +355,10 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: ext\\
 [Sun Nov 15 23:00:22.895876 2020] [php7:error] [pid 4968:tid 1088] [client ::1:3036] PHP Fatal error:  Uncaught Error: Call to protected method User::getProtectedMethod() from context '' in C:\\localhost\\PublicProtectedPrivate.php:48\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\PublicProtectedPrivate.php on line 48, referer: http://localhost:8080/
 [Sun Nov 15 23:00:50.282573 2020] [php7:error] [pid 4968:tid 1088] [client ::1:3039] PHP Fatal error:  Uncaught Error: Call to protected method User::getProtectedMethod() from context '' in C:\\localhost\\PublicProtectedPrivate.php:44\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\PublicProtectedPrivate.php on line 44, referer: http://localhost:8080/
 [Sun Nov 15 23:02:10.113520 2020] [php7:error] [pid 4968:tid 1088] [client ::1:3047] PHP Fatal error:  Uncaught Error: Call to protected method User::getProtectedMethod() from context '' in C:\\localhost\\PublicProtectedPrivate.php:48\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\PublicProtectedPrivate.php on line 48, referer: http://localhost:8080/
+[Mon Nov 16 00:54:07.567129 2020] [mpm_winnt:notice] [pid 3404:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 16 00:54:09.644529 2020] [mpm_winnt:notice] [pid 4968:tid 564] AH00364: Child: All worker threads have exited.
+[Mon Nov 16 00:54:10.410155 2020] [mpm_winnt:notice] [pid 3404:tid 536] AH00430: Parent: Child process 4968 exited successfully.
+[Mon Nov 16 00:54:48.852269 2020] [mpm_winnt:notice] [pid 3544:tid 704] AH00455: Apache/2.4.46 (Win64) PHP/7.4.12 configured -- resuming normal operations
+[Mon Nov 16 00:54:48.867897 2020] [mpm_winnt:notice] [pid 3544:tid 704] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 16 00:54:48.867897 2020] [core:notice] [pid 3544:tid 704] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 16 00:54:48.867897 2020] [mpm_winnt:notice] [pid 3544:tid 704] AH00418: Parent: Created child process 5048
